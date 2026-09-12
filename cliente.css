@@ -227,6 +227,17 @@ footer {
     z-index: 1000;
 }
 
+footer button{
+    background: #f7f5f3c9;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 18px;
+    font-size: clamp(12px, 2.5vw, 15px);
+    max-width: 100%;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
 .carrinho {
     display: flex;
     align-items: center;
